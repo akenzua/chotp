@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700');
+
+body{
+
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Roboto Slab', serif;
+}
+p, span{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+	border-radius: 0;
+	border: none;
+	height: auto;
+	background:#fff;
+	padding-top: 5px;
+	border-style: none;
+	box-shadow: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+.navbar ul {
+	/*s*/
+	font-family: 'Roboto Slab', serif;
+	color: #6EAF55;
+}
+.navbar ul >a {
+	color: #6EAF55;
+
+}
+/*Navbar Brand*/
+header .navbar-brand {
+	background: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 10px 0;
+	background-size: 65px 65px;
+	height: 70px;
+	
+}
+header .navbar-brand h1{
+	color: #6EAF55;
+	margin: 0;
+	font-size: 0.85em;
+	font-weight: 200;
+	padding-left: 65px;
+	line-height: 1.2;
+	font-family: 'Roboto Slab', serif;
+}
+/*Navbar Toggle*/
+
+header .navbar-toggle{
+	background-color: white;
+
+}
+.navbar-default .navbar-toggle{
+	border: 1px solid #6EAF55;
+}
+ .navbar-default .navbar-toggle:hover{
+ 	background-color: white;
+ 	border: 1px solid #6EAF55;
+ }
+
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: #6EAF55;
+}
+
+/*Cover*/
+.bgimage{
+	background-image: url(../img/rural.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 500px;
+	padding-top: 0;
+	margin-top: 0;
+}
+.jumbotron{
+	margin-top:130px;
+	background:rgba(0,0,0,0.5);
+}
+.jumbotron h3{
+	color: #6EAF55;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 3em;
+}
+.jumbotron p{
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	margin-bottom: 70px;
+}
+/*TopHead*/
+.top-head{
+	background:#6EAF55;
+	height: 45px;
+}
+
+.top-head ul li{
+	display: inline;
+	list-style: none;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	padding-right: 10px;
+	padding-left: 0;
+	line-height: 3;
+}
+
+/*News*/
+.ne{
+	margin-bottom: 70px;
+}
+.news-content{
+	
+
+padding: 0;
+margin-bottom: 5px;
+border-bottom: 1px solid #d3d3d3;
+
+}
+.news-content .summary{
+	padding-right: 0;
+}
+.news-content img{
+	
+	height: 100%;
+}
+.news-content h5{
+	font-size: 1.1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.news h1,.news h5, .events h1, .events h5, .faculty h1{
+	font-weight: 700;
+}
+.news .heading h1{
+	border-bottom: 2px solid #6EAF55;
+}
+.news span{
+	font-size: 0.7em;
+	color: #6EAF55;
+}
+.news p{
+	
+	font-size: 0.8em;
+
+}
+/*Events*/
+#eventHead h1{
+	border-bottom: 2px solid #6EAF55;
+	padding-bottom: 0;
+}
+#eventhead {
+	margin-bottom: 5px;
+}
+.event{
+	background-color: #fff;
+	border: 1px solid #6EAF55;
+	border-radius: 12px 40px;
+	padding: 2.5px;
+	padding-top: 1.5px;
+	padding-bottom: 1.5px;
+	margin-bottom:5px;
+}
+.event h3{
+	font-weight: 700;
+	color: #fff;
+	line-height: 0.3;
+}
+.event p{
+	
+	
+	margin-top: 10px;
+}
+.event .month{
+	margin-bottom: 23px;
+}
+.date h3, .detail p{
+	background-color: white;
+	color: #6EAF55; 
+	vertical-align: middle;
+
+	font-family: 'Roboto Slab', serif;
+}
+.date h3{
+		font-size: 1.8em;
+		padding-left: 20px;
+
+}
+.detail p{
+		font-size: 1.1em;
+
+}
+/*Faculty*/
+.faculty h1{
+	text-align: center;
+}
+
+.lecturer img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.lecturer h5{
+	text-align: center;
+	font-weight: 700;
+	line-height: 0.7;
+}
+footer{
+	background-color: #6EAF55;
+	margin-top: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+}
+footer legend{
+	color: white;
+}
+
+footer .form-control, .top-head .form-control{
+	background-color: #6EAF55;
+	border: 1px solid white;
+
+}
+.form-control::-webkit-input-placeholder {
+ color: white; 
+}
+.form-control:-moz-placeholder {
+ color: white; 
+}
+.form-control::-moz-placeholder {
+ color: white; 
+}
+.form-control:-ms-input-placeholder {
+ color: white; 
+}
+.inputMessage{
+	color: white;
+}
+footer form label{
+	color: white;
+}
+footer textarea{ 
+    color:white !important;
+}
+footer input[type=submit], .top-head button, .dropped button{
+	background: #6EAF55;
+	color: white;
+	border: 1px solid white;
+}
+footer input[type=submit]:hover, .top-head button:hover, .dropped button:hover{
+	background: white;
+	color: #6EAF55;
+	border: 1px solid #6EAF55;
+	font-weight: bold;
+}
+footer input[type=text], .top-head input[type=text]{
+	
+	color: #fff;
+	
+	
+}
+
+.contact{
+	color: white;
+	text-align:  right;
+}
+.btn-fb, .btn-tw, .btn-gplus, .btn-li{
+	color: white;
+	background-color: #6EAF55;
+	border: 1px solid white;
+}
+
+.btn-fb:hover, .btn-tw:hover, .btn-gplus:hover, .btn-li:hover{
+	color: #6EAF55;
+	background-color: white;
+}
+
+/*footer .dark{
+	background-color: #252427;
+	min-height: 50px;
+	vertical-align: middle;
+}*/
+@media(max-width:767px){
+	.top-head{
+		display: none;
+
+	}
+	.contact{
+		text-align: left;
+	}
+	.dropped{
+		padding:15px;
+		background-color: #6EAF55;
+	}
+	.extraNav{
+		line-height: 3;
+		color: white;}
+	
+	.dropped 	
+}
+
+@media(min-width:768px){
+	.extraNav{
+		display: none;
+	}
+}
+.copyright{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.copyright p{
+	color: white;
+	text-align: center;
+	font-size: 0.75em;
+}
