@@ -307,6 +307,14 @@ footer input[type=text], .top-head input[type=text]{
 	color: #6EAF55;
 	background-color: white;
 }
+.top-socials{
+	color: white;
+	margin-right: 25px;
+}
+.top-socials .fa{
+	margin-right: 15px;
+	line-height: 2.8;
+}
 
 /*footer .dark{
 	background-color: #252427;
