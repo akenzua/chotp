@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700');
 
-body{
+/* body{
 
-}
+} */
 h1, h2, h3, h4, h5{
 	font-family: 'Roboto Slab', serif;
 }
@@ -73,6 +73,14 @@ header .navbar-brand h1{
 	padding-left: 65px;
 	line-height: 1.2;
 	font-family: 'Roboto Slab', serif;
+}
+.subhead span{
+	font-family: 'Roboto Slab', serif;
+	line-height: 0.5;
+}
+.subhead .heading{
+	font-size: 22px;
+	font-weight: 700;
 }
 /*Navbar Toggle*/
 
@@ -337,8 +345,8 @@ footer input[type=text], .top-head input[type=text]{
 		line-height: 3;
 		color: white;}
 	
-	.dropped 	
-}
+		
+} 
 
 @media(min-width:768px){
 	.extraNav{
