@@ -9,6 +9,29 @@ h1, h2, h3, h4, h5{
 p, span{
 	font-family: 'Roboto', sans-serif;
 }
+#active a{
+	background: #D8141B;
+	color: #fbe7e8;
+}
+#search-bar button, #search-bar .form-control{
+	background: #D8141B;
+	color: #fbe7e8;
+	border-color: #D8141B;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a{
+	
+}
+
+.dropdown-menu{
+
+	background-color: #fbe7e8;
+}
+
+.navbar-nav .li a{
+	color: #f7d0d1;
+}
 
 .navbar{
 	border-radius: 0;
