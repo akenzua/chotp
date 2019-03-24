@@ -13,15 +13,17 @@ p, span{
 	background: #D8141B;
 	color: #fbe7e8;
 }
-#search-bar button, #search-bar .form-control{
+/* #search-bar button, #search-bar .form-control{
 	background: #D8141B;
 	color: #fbe7e8;
 	border-color: #D8141B;
 	font-family: 'Roboto Slab', sans-serif;
-}
+} */
 
-.navbar-default .navbar-nav>li>a{
-	
+.banner-button{
+	background: #D8141B;
+	color: #fbe7e8;
+	border-color: #D8141B;
 }
 
 .dropdown-menu{
@@ -92,7 +94,7 @@ header .navbar-default .navbar-toggle .icon-bar{
 
 /*Cover*/
 .bgimage{
-	background-image: url(../img/rural.jpg);
+	background-image: url(../img/graduand.jpg);
 	background-position: center center;
 	background-size: cover;
 	height: 500px;
@@ -101,13 +103,14 @@ header .navbar-default .navbar-toggle .icon-bar{
 }
 .jumbotron{
 	margin-top:130px;
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.25);
+	padding-right: 0;
 }
-.jumbotron h3{
-	color: #6EAF55;
+.jumbotron h2{
+	color: #fff;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 2em;
 }
 .jumbotron p{
 	color: #fff;
