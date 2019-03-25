@@ -145,6 +145,30 @@ header{
 	line-height: 3;
 }
 
+/* Legacy */
+.the-school{
+	background: #fafafa;
+}
+.words{
+	background: #fafafa;
+	
+}
+.words h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	letter-spacing: 7px;
+}
+.words .lower{
+	color: #D8141B;
+	font-weight: 900;
+	line-height: 0;
+	font-family: 'Roboto Slab', serif;
+}
+.words .details{
+	margin-top: 35px;
+	font-size: 13px;
+}
+
 /*News*/
 .ne{
 	margin-bottom: 70px;
